@@ -1,0 +1,41 @@
+/* ============================================================
+   Navigation
+============================================================ */
+.nav {
+    background:#d06f1c url('../../shared/assets/bg-banner.png') repeat-x center left;
+    margin:0;
+    padding:0.625em 5% 0.875em; /* 10px 5% 14px */
+    overflow:hidden;
+    list-style:none;
+}
+.nav li {
+    margin:0;
+    border:1px solid #b06013;
+    border-width:0 1px 0 0;
+    float:left;
+}
+.nav li a {
+    color:#2c1c16;
+    font:bold 1.25em/1 'Proxima Nova Condensed Bold','Arial Narrow',sans-serif; /* 20px/20px */
+    text-transform:uppercase;
+    text-shadow:0 1px 0 #f93;
+    padding:0 0.4em; /* 8px */
+    display:block;
+    }
+.nav li a:hover {
+    border-bottom:0 none;
+}
+.nav li:first-child a {
+    padding-left:0;
+}
+.nav li:last-child {
+    border-width:0;
+    padding-right:0;
+}
+
+/* Workshop:
+    - Add media queries to scale up mobile first navigation for larger screen displays.
+    - Think about how to position the footer from the nav to the top. Absolute position? Flex-box?
+    - What break points might be appropriate?
+*/
+
